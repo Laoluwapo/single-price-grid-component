@@ -1,3 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+    background-color: #E6EFF5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 311px;
+    margin-bottom: 7rem;
+}
+
+.community-block {
+    padding: 2.8rem 2.4rem 3.2rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    background-color: #FFF;
+}
+
+.community__heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2AB3B1;
+    margin-top: 2.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.community__money-back {
+    color:#C0DF33;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.community__text {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #9AA7BE;
+}
+
+.subscription-block {
+    background: #2AB3B1;
+    padding: 2.4rem;
+    color: #FFF;
+}
+
+.subscription__header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+}
+
+.price {
+    font-size: 3.2rem;
+    font-size: 700;
+}
+.duration {
+    font-size: 1.6rem;
+    font-weight: 400;
+    opacity: .5;
+    margin-left: 1.1rem;
+}
+
+.subscription__text {
+    font-size: 1.6rem;
+    margin-top: .4rem;
+    margin-bottom: 2.6rem;
+}
+
+.btn {
+    background-color: #C0DF33;
+    border: none;
+    border-radius: .5rem;
+    color: #FFF;
+    outline: none;
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+}
+
+.why-block {
+    padding: 2.4rem;
+    background: rgba(42, 179, 177, .85);
+    color: #FFF;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.why__heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+}
+
+.why__list li{
+    list-style: none;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    opacity: .75;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
